@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mastermind.Scores"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#242d3c">
+
+
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+
+        <StackLayout Padding="0, 10, 0, 10"
+                     BackgroundColor="#354660">
+            <Label Text="Mastermind"
+                   TextColor="#ebe8e3"
+                   Font="30"
+                   HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+        </StackLayout>
+
+        <Label Text="Top 20 Score"
+               TextColor="#ebe8e3"
+               Font="30"
+               HorizontalTextAlignment="Center">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="TitanOne-Regular" />
+                    <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="FillAndExpand"
+                     Margin="5,0,5,0">
+            <Label Text="Rank"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="60"
+                   BackgroundColor="Red">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+            <Label Text="Player name"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="140"
+                   BackgroundColor="Yellow">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+            <Label Text="Score"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="65"
+                   BackgroundColor="Red">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+            <Label Text="Time"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="65"
+                   BackgroundColor="Yellow">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+        </StackLayout>
+
+        <ScrollView VerticalScrollBarVisibility="Never"
+                    Orientation="Vertical">
+
+            <StackLayout x:Name="Ligne"
+                         Margin="10,0,10,25">
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <StackLayout BackgroundColor="#354660"
+                     VerticalOptions="EndAndExpand">
+            <Button Text="Close"
+                    BackgroundColor="#4b4e53"
+                    TextColor="#ebe8e3"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="Button_Close_Clicked">
+                <Button.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Button.FontFamily>
+            </Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

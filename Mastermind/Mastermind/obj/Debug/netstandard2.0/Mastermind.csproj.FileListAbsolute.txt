@@ -1,0 +1,15 @@
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\bin\Debug\netstandard2.0\Mastermind.deps.json
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\bin\Debug\netstandard2.0\Mastermind.dll
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\bin\Debug\netstandard2.0\Mastermind.pdb
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Mastermind.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Mastermind.AssemblyInfoInputs.cache
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Mastermind.AssemblyInfo.cs
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Mastermind.dll
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Mastermind.pdb
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Mastermind.csprojAssemblyReference.cache
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Jeux.xaml.g.cs
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Options.xaml.g.cs
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\Scores.xaml.g.cs
+D:\Visual Studio 2017\Mastermind\Mastermind\Mastermind\obj\Debug\netstandard2.0\XamlC.stamp

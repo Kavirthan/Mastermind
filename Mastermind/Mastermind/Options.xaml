@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mastermind.Options"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#242d3c">
+
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+
+        <StackLayout Padding="0, 10, 0, 10"
+                     BackgroundColor="#354660">
+            <Label Text="Mastermind"
+                   TextColor="#ebe8e3"
+                   Font="30"
+                   HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+        </StackLayout>
+
+        <Label Text="Options"
+               TextColor="#ebe8e3"
+               Font="50"
+               HorizontalTextAlignment="Center">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="TitanOne-Regular" />
+                    <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <Label Text="Name"
+               TextColor="#ebe8e3"
+               Font="25"
+               HorizontalTextAlignment="Center"
+               Margin="0,25,0,0">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="TitanOne-Regular" />
+                    <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <Entry x:Name="Entry"
+               MaxLength="10"
+               Placeholder="Username"
+               TextColor="#ebe8e3"
+               HorizontalTextAlignment="Center"
+               Margin="75,0,75,0">
+            <Entry.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="TitanOne-Regular" />
+                    <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                </OnPlatform>
+            </Entry.FontFamily>
+        </Entry>
+
+        <Label Text="Difficulty"
+               TextColor="#ebe8e3"
+               Font="25"
+               HorizontalTextAlignment="Center"
+               Margin="0,25,0,0">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="TitanOne-Regular" />
+                    <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="Normal"
+                   TextColor="#ebe8e3"
+                   Font="20"
+                   HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+
+            <Switch x:Name="Difficulty">
+            </Switch>
+
+            <Label Text="Hard"
+                   TextColor="#ebe8e3"
+                   Font="20"
+                   HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+        </StackLayout>
+
+
+        <Label Text="Sound"
+               TextColor="#ebe8e3"
+               Font="25"
+               HorizontalTextAlignment="Center"
+               Margin="0,25,0,0">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="TitanOne-Regular" />
+                    <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="Off"
+                   TextColor="#ebe8e3"
+                   Font="20"
+                   HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+
+            <Switch x:Name="Sound">
+            </Switch>
+
+            <Label Text="On"
+                   TextColor="#ebe8e3"
+                   Font="20"
+                   HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="#354660"
+                     VerticalOptions="EndAndExpand">
+            <Button Text="Save and Close"
+                    BackgroundColor="#4b4e53"
+                    TextColor="#ebe8e3"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="Button_Close_Clicked">
+                <Button.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="TitanOne-Regular" />
+                        <On Platform="Android" Value="TitanOne-Regular.ttf#TitanOne-Regular" />
+                    </OnPlatform>
+                </Button.FontFamily>
+            </Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
